@@ -67,7 +67,7 @@ H --> I[Select Best Model]
 * Removed unnecessary column (`Unnamed: 0`)
 * Removed constant features
 * Removed duplicate records
-* Dropped categorical columns
+* Labeled categorical columns
 * Removed features with >90% zero values
 * Handled missing values using mean imputation
 
@@ -96,27 +96,6 @@ H --> I[Select Best Model]
 * Precision
 * Recall
 * F1 Score
-
----
-
-## 📈 Results
-
-| Model               | Accuracy | Precision | Recall   | F1 Score |
-| ------------------- | -------- | --------- | -------- | -------- |
-| Logistic Regression | 0.76     | 0.47      | 0.89     | 0.62     |
-| Decision Tree       | 0.97     | 0.92      | 0.95     | 0.93     |
-| Random Forest       | **0.99** | **0.98**  | **0.96** | **0.97** |
-| SVM                 | 0.85     | 0.60      | 0.95     | 0.74     |
-
----
-
-## 🏆 Best Model
-
-### ✅ Random Forest
-
-* Highest F1 Score
-* High Precision → fewer false positives
-* High Recall → detects most fraud cases
 
 ---
 
